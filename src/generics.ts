@@ -9,12 +9,6 @@ function simpleStateFunction<T>(initial: T): [() => T, (v: T) => void] {
     ];
   }
 
-const [st1getterr, st1setter] = simpleStateFunction(10);
-
-const [st2getterr, st2setter] = simpleStateFunction<string | null>(null);
-console.log(st2getterr())
-st2setter('hello')
-console.log(st2getterr())
 
 interface Rank<RankItem> {
   item: RankItem;

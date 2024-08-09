@@ -1,5 +1,3 @@
-
-
 function reduceForEach<T>(items: T[], forEachFn: (v: T) => void): void {
   items.reduce((a, v) => {
     forEachFn(v);

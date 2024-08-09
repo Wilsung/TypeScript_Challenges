@@ -17,8 +17,3 @@ function simpleStateFucntion(
     },
   ];
 }
-
-const [str1getter, str1setter] = simpleStateFucntion('hello')
-console.log(str1getter())
-str1setter('willy')
-console.log(str1getter())
