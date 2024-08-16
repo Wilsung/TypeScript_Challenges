@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "ES5",
     "useDefineForClassFields": true,
-    "module": "CommonJS",
+    // "module": "CommonJS",
+    "module": "ES2015",
     "allowJs": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
